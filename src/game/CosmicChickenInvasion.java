@@ -243,20 +243,29 @@ public class CosmicChickenInvasion extends JFrame {
                 lastShotTime = System.currentTimeMillis();
             }
         }
-
         public void draw(Graphics2D g) {
             long now = System.currentTimeMillis();
             boolean flashing = (now - gamePanel.lastHitTime) < INVINCIBILITY_DURATION;
 
             if (!flashing || (now / 100 % 2 == 0)) {
-                g.setColor(Color.GREEN);
-                g.fillRect(x, y, 50, 30);
+                // Tractor body
+                g.setColor(new Color(34, 139, 34)); // Dark green
+                g.fillRect(x, y, 60, 30);
+
+                // Tractor cabin
+                g.setColor(new Color(0, 100, 0)); // Darker green
+                g.fillRect(x + 10, y - 20, 30, 20);
+
+                // Wheels
+                g.setColor(Color.BLACK);
+                g.fillOval(x - 5, y + 25, 20, 20);
+                g.fillOval(x + 45, y + 25, 20, 20);
+
+                // Front pitchfork shooter
                 g.setColor(Color.GRAY);
-                g.fillRect(x + 20, y - 20, 10, 20);
+                g.fillRect(x + 25, y - 40, 10, 20);
             }
         }
-
-
         public Rectangle getBounds() {
             return new Rectangle(x, y, 50, 30);
         }
