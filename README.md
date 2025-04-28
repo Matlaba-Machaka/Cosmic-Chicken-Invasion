@@ -33,7 +33,7 @@ Cosmic Chicken Invasion is a retro-inspired, fast-paced space shooter game where
 
 - **Power-ups and Speed**: As your score increases, the chickens' speed and their attack patterns get more difficult, making survival harder!
 
-### 🛠️ How to Run the Game
+## 🛠️ How to Run the Game
 ### Local Setup:
 1. Clone the repository:
 
@@ -54,13 +54,13 @@ cd CosmicChickenInvasion
 javac CosmicChickenInvasion.java
 java CosmicChickenInvasion
 ```
-### Dependencies:
+## Dependencies:
 
 - **Java Development Kit (JDK) 8 or higher (JDK 23 recommended).**
 
 - **No external libraries required, just standard Java Swing.**
 
-### 💡 Future Updates & Ideas
+## 💡 Future Updates & Ideas
 - **Sound Effects**: Add retro sound effects (pew pew, explosions, etc.) for a more immersive experience.
 
 - **Power-ups**: Include power-ups like shields, speed boosts, or enhanced firepower.
@@ -70,7 +70,7 @@ java CosmicChickenInvasion
 - **Levels**: Add more levels with varying difficulty and new types of chickens.
 
 
-#### 📅 Changelog
+## 📅 Changelog
 #### Version 1.0:
 - **Initial release with basic gameplay mechanics (move and shoot).**
 
@@ -80,6 +80,6 @@ java CosmicChickenInvasion
 
 - **Cosmic Chicken Invasion is an ever-evolving game. Feel free to submit issues, bugs, or contribute your own enhancements. Fork it, improve it, and share your own version! 🚀**
 
-### 🏆 Contribute
+## 🏆 Contribute
 Want to contribute? Awesome! Feel free to fork the repo, make changes, and submit pull requests. All contributions are welcome.
 
