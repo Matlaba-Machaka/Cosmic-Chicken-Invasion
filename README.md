@@ -38,7 +38,7 @@ Cosmic Chicken Invasion is a retro-inspired, fast-paced space shooter game where
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/CosmicChickenInvasion.git
+git clone https://github.com/Matlaba-Machaka/CosmicChickenInvasion.git
 
 ```
 2. Navigate to the project folder:
